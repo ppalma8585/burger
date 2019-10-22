@@ -1,0 +1,12 @@
+<div class="burger-div">
+	<div class="row">
+		<div class="col">
+			{{burger_name}}
+		</div>
+		<div class="col">
+			<button class="change-devour btn btn-primary" data-id="{{id}}" data-newdevour="{{devoured}}">
+				{{#if devoured}}Devour It!{{else}}Reorder it!{{/if}}
+			</button>
+		</div>
+	</div>
+</div>
